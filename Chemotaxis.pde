@@ -3,17 +3,14 @@
  void setup()   
  {     
    //initialize bacteria variables here  
-   
+   size(500,700);
    bob = new Bacteria[20];
    for(int i = 0; i < bob.length; i++)
    {
      bob[i] = new Bacteria();
    }
  }   
- void settings()
- {
-   size(500,700);
- }
+ 
  void draw()   
  {    
    //move and show the bacteria
